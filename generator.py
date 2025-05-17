@@ -7,5 +7,5 @@ def generate_matrix(rows, cols, min_val=0, max_val=10, filename="matrix.txt"):
         for row in mat:
             f.write(" ".join(str(x) for x in row) + "\n")
 
-generate_matrix(10, 12, 1, 10, "matrixA.txt")
-generate_matrix(12, 10, 1, 10, "matrixB.txt")
+generate_matrix(500, 500, 1, 10, "matrixA.txt")
+generate_matrix(500, 500, 1, 10, "matrixB.txt")
